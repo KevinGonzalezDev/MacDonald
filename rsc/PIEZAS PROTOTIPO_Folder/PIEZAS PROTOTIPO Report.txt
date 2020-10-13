@@ -1,0 +1,121 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: PIEZAS PROTOTIPO.ai
+Color Mode: RGB color
+Color Profile: none
+Ruler Units: pixels
+Artboard Dimensions: 1920 px x 1068 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Montserrat Medium (OTF)
+Montserrat Bold (OTF)
+Montserrat SemiBold (OTF)
+Montserrat Black (OTF)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+I:\0_ANDRÉS\Desktop\BBI GROUP\11. F_CASA RONALD_MCDONALD\PANTALLAZO4.psd
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 2052K, 1332 by 526 pixels
+Dimensions: 1914 by 755,829 points 
+Resolution: 50,107 by 50,107 pixels per inch
+
+
+I:\0_ANDRÉS\Desktop\BBI GROUP\11. F_CASA RONALD_MCDONALD\PANTALLAZO1.psd
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 2855K, 1298 by 751 pixels
+Dimensions: 1927 by 1114,928 points 
+Resolution: 48,498 by 48,498 pixels per inch
+
+
+I:\0_ANDRÉS\Desktop\BBI GROUP\11. F_CASA RONALD_MCDONALD\PANTALLAZO1.psd
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 2855K, 1298 by 751 pixels
+Dimensions: 1927 by 1114,928 points 
+Resolution: 48,498 by 48,498 pixels per inch
+
+
+I:\0_ANDRÉS\Desktop\BBI GROUP\11. F_CASA RONALD_MCDONALD\PANTALLAZO1.psd
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 2855K, 1298 by 751 pixels
+Dimensions: 1927 by 1114,928 points 
+Resolution: 48,498 by 48,498 pixels per inch
+
+
+I:\0_ANDRÉS\Desktop\BBI GROUP\11. F_CASA RONALD_MCDONALD\PANTALLAZO1.psd
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 2855K, 1298 by 751 pixels
+Dimensions: 1927 by 1114,928 points 
+Resolution: 48,498 by 48,498 pixels per inch
+
+
+I:\0_ANDRÉS\Desktop\BBI GROUP\11. F_CASA RONALD_MCDONALD\PANTALLAZO1.psd
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 2855K, 1298 by 751 pixels
+Dimensions: 1927 by 1114,928 points 
+Resolution: 48,498 by 48,498 pixels per inch
+
+
+I:\0_ANDRÉS\Desktop\BBI GROUP\11. F_CASA RONALD_MCDONALD\PANTALLAZO2.psd
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 3454K, 1334 by 884 pixels
+Dimensions: 1931,584 by 1280 points 
+Resolution: 49,725 by 49,725 pixels per inch
+
+
+I:\0_ANDRÉS\Desktop\BBI GROUP\11. F_CASA RONALD_MCDONALD\PANTALLAZO1.psd
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 2855K, 1298 by 751 pixels
+Dimensions: 1927 by 1114,928 points 
+Resolution: 48,498 by 48,498 pixels per inch
+
+
+I:\0_ANDRÉS\Desktop\BBI GROUP\11. F_CASA RONALD_MCDONALD\PANTALLAZO3.psd
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 2231K, 1276 by 597 pixels
+Dimensions: 1934 by 904,857 points 
+Resolution: 47,504 by 47,504 pixels per inch
