@@ -11,7 +11,7 @@ if(picked == 0){
     block1.style.display = 'flex';
 }
 
-
+console.log("Toy vivo");
 
 buttons[0].addEventListener('click', function(){
     block1.style.display = 'flex';

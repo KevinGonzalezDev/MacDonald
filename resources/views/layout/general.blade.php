@@ -60,5 +60,7 @@
     <p>Copyright 2020 Event Landing Page - All rights reserved.</p>
 </div>
 <script src="js/mobile-menu.js"></script>
+<script src="js/pagination.js"></script>
+<script src="js/timer.js"></script>
 </body>
 </html>

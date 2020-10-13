@@ -8,7 +8,16 @@
     </div>
 
 
-    <img src="img/templates/timer.jpg" alt="Timer" id="timerimg">
+    <div class="timer-container">
+        <div class="timerimg-mask">
+            <img src="img/timer.png" alt="timer image">
+        </div>
+        
+        <div class="timer-count-container">
+            <h2>FALTAN:</h2>
+            <p id="timing"></p>
+        </div>
+    </div>
 
     <!-- CONTENIDO DE TICKETS ------------------------------------------------------------------------------ -->
 
@@ -150,7 +159,7 @@
 
     <div class="livestream-container">
         <div class="livestreamimg-mask">
-            <img src="img/livestream/livestream.png" alt="livestream image">
+            <img src="img/livestream/livestream.jpg" alt="livestream image">
         </div>
         <div class="livestream-info-container">
             <h2>LIVESTREAM</h2>
@@ -163,7 +172,7 @@
     <!-- CONTENIDO DE lIVESTREAM !END! ------------------------------------------------------------------------------ -->
 
 
-    <script src="js/pagination.js"></script>
+    
 
 </body>
 @endsection
