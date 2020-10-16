@@ -1,14 +1,21 @@
 @extends('layout.general')
 
 @section('content')
-<body>
-
-    <div class="heroimage-mask">
+<div class="heroimage-mask">
         <img src="img/templates/heroimage.jpg" alt="Hero home image" id="hero-image">
     </div>
 
 
-    <img src="img/templates/timer.jpg" alt="Timer" id="timerimg">
+    <div class="timer-container">
+        <div class="timerimg-mask">
+            <img src="img/timer.png" alt="timer image">
+        </div>
+
+        <div class="timer-count-container">
+            <h2>FALTAN:</h2>
+            <p id="timing"></p>
+        </div>
+    </div>
 
     <!-- CONTENIDO DE TICKETS ------------------------------------------------------------------------------ -->
 
@@ -17,7 +24,7 @@
             <img src="img/templates/header-tickets.png" alt="tickets header">
             <div class="header-tickets-info-container">
                 <h2>¡Sé parte de uno de los eventos más esperados del año!</h2>
-                <p>Adquiere ya tus tickets o regístrate para crear una orden de compra y realizar en el momento que desees.</p>
+                <p>Apoya a la fundación que da cuidados, salud y bienestar a familias y niños en tratamientos médicos.</p>
             </div>
         </div>
     </div>
@@ -72,16 +79,14 @@
                 </ul>
             </div>
 
-            <div class="block-ticket">
-                <img src="img/tickets/ticket-09.png" alt="">
-                <h2 id="price">80.000</h2>
-                <h2>INCLUYE</h2>
-                <ul>
-                    <li>1 Ingreso</li>
-                    <li>Sin box</li>
-                </ul>
-            </div>
         </div>
+
+
+        <div id="afrus-container-form" data-form="Zm9ybS0xMTkzLW9yZ2FuaXphdGlvbi04MA=="></div>
+          <script src="https://my.afrus.app/template/index.js"></script>
+
+
+
     </div>
 
 
@@ -106,7 +111,7 @@
                     </div>
 
                     <div class="eventos-info-container">
-                        <h2>Presentación: Gerente Mc Donald's</h2>
+                        <h2>Palabras en vivo del Gerente Hector Orozco Giraldo.</h2>
                         <p>Los eventos virtuales llegaron para quedarse. El desafío de encontrar nuevas experiencias.</p>
                     </div>
                 </div>
@@ -117,10 +122,10 @@
                             <p>EN SEGUIDA</p>
                             <span></span>
                         </div>
-                        <img src="img/eventos/1.jpg" alt="Gerente MacDonalds">
+                        <img src="img/eventos/2.jpg" alt="Gerente MacDonalds">
                     </div>
                     <div class="eventos-info-container">
-                        <h2>Cocinando con Leonor Espinosa</h2>
+                        <h2>¡La gran chef Colombiana te enseñará a preparar una deliciosa receta en vivo!</h2>
                         <p>La resiliencia es uno de los factores determinantes del éxito y la reorientación estratégica.</p>
                     </div>
                 </div>
@@ -131,10 +136,10 @@
                             <p>DESPUÉS</p>
                             <span></span>
                         </div>
-                        <img src="img/eventos/1.jpg" alt="Gerente MacDonalds">
+                        <img src="img/eventos/3.jpg" alt="Gerente MacDonalds">
                     </div>
                     <div class="eventos-info-container">
-                        <h2>Show especial: Monsieur Periné</h2>
+                        <h2>El espectacular show de la agrupación Colombiana con reconocimiento a nivel mundial.</h2>
                         <p id="black-paragraph">Sed ut perspiciatis unde omnis iste natus error voluptatem accusan tium dolore.</p>
                     </div>
                 </div>
@@ -150,99 +155,27 @@
 
     <div class="livestream-container">
         <div class="livestreamimg-mask">
-            <img src="img/livestream/livestream.png" alt="livestream image">
+            <img src="img/livestream/livestream.jpg" alt="livestream image">
         </div>
         <div class="livestream-info-container">
-            <h2>LIVESTREAM</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio similique distinctio deleniti repudiandae ratione obcaecati dolore, beatae, doloremque fugit unde amet expedita blanditiis facilis. Aliquam, temporibus. Asperiores, distinctio blanditiis similique assumenda est, velit eaque tempora eveniet, iure quam commodi illum ipsam quae! Nihil, inventore fugit repudiandae suscipit voluptate consectetur quibusdam?</p>
+            <h2>Leo Espinosa</h2>
+            <p>La chef de Restaurante Leo (antes Leo Cocina y Cava), situado en Bogotá, ostenta el puesto 49 en la lista de los 50 mejores restaurantes de América Latina 2014.  ha sido reconocida como Mejor Chef Femenina de América Latina en 2017. Nació en Cartagena y se define como economista y artista plástica. Y su trabajo entre los fogones de su restaurante se centra en mostrar, reivindicar y potenciar las tradiciones gastronómicas de las comunidades colombianas, a partir de su patrimonio biológico, cultural e inmaterial.</p>
             <a href="#" id="join-livestream">Acceder</a>
         </div>
     </div>
 
 
+    <h2 id="welcome">¡Bienvenido a La Casa Ronald!</h2>
+
+
     <!-- CONTENIDO DE lIVESTREAM !END! ------------------------------------------------------------------------------ -->
 
 
+
+
+
     <script src="js/pagination.js"></script>
+    <script src="js/timer.js"></script>
+  
 
-</body>
-@endsection
-
-@section('feedback')
-
-<div class="feedback-container">
-
-
-    <h2>Comentarios sobre nuestro evento</h2>
-
-
-    <div class="feedback-blocks-container">
-
-
-
-        <div id="feedback-block1" class="feedback-blockgroup">
-            <div class="feedback-block">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere optio corrupti quas cupiditate consectetur placeat! Deserunt voluptates enim, omnis obcaecati quidem qui magni, doloribus debitis unde deleniti autem! Porro nisi tempore explicabo magni saepe ab culpa minima molestias enim voluptatem!</p>
-                <span id="noimage-mockup"></span>
-            </div>
-
-            <div class="feedback-block">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere optio corrupti quas cupiditate consectetur placeat! Deserunt voluptates enim, omnis obcaecati quidem qui magni, doloribus debitis unde deleniti autem! Porro nisi tempore explicabo magni saepe ab culpa minima molestias enim voluptatem!</p>
-                <span id="noimage-mockup"></span>
-            </div>
-
-            <div class="feedback-block">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere optio corrupti quas cupiditate consectetur placeat! Deserunt voluptates enim, omnis obcaecati quidem qui magni, doloribus debitis unde deleniti autem! Porro nisi tempore explicabo magni saepe ab culpa minima molestias enim voluptatem!</p>
-
-
-    <span id="noimage-mockup"></span>
-      </div>
-        </div>
-
-        <div id="feedback-block2" class="feedback-blockgroup">
-            <div class="feedback-block">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere optio corrupti quas cupiditate consectetur placeat! Deserunt voluptates enim, omnis obcaecati quidem qui magni, doloribus debitis unde deleniti autem! Porro nisi tempore explicabo magni saepe ab culpa minima molestias enim voluptatem!</p>
-                <span id="noimage-mockup"></span>
-            </div>
-
-            <div class="feedback-block">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere optio corrupti quas cupiditate consectetur placeat! Deserunt voluptates enim, omnis obcaecati quidem qui magni, doloribus debitis unde deleniti autem! Porro nisi tempore explicabo magni saepe ab culpa minima molestias enim voluptatem!</p>
-                <span id="noimage-mockup"></span>
-            </div>
-
-            <div class="feedback-block">
-                <p>adssadasdasddsd ipsum dolor, sit amet consectetur adipisicing elit. Facere optio corrupti quas cupiditate consectetur placeat! Deserunt voluptates enim, omnis obcaecati quidem qui magni, doloribus debitis unde deleniti autem! Porro nisi tempore explicabo magni saepe ab culpa minima molestias enim voluptatem!</p>
-                <span id="noimage-mockup"></span>
-            </div>
-        </div>
-
-
-        <div id="feedback-block3" class="feedback-blockgroup">
-            <div class="feedback-block">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere optio corrupti quas cupiditate consectetur placeat! Deserunt voluptates enim, omnis obcaecati quidem qui magni, doloribus debitis unde deleniti autem! Porro nisi tempore explicabo magni saepe ab culpa minima molestias enim voluptatem!</p>
-                <span id="noimage-mockup"></span>
-            </div>
-
-            <div class="feedback-block">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere optio corrupti quas cupiditate consectetur placeat! Deserunt voluptates enim, omnis obcaecati quidem qui magni, doloribus debitis unde deleniti autem! Porro nisi tempore explicabo magni saepe ab culpa minima molestias enim voluptatem!</p>
-                <span id="noimage-mockup"></span>
-            </div>
-
-            <div class="feedback-block">
-                <p>adssada213123sdasddsd ipsum dolor, sit amet consectetur adipisicing elit. Facere optio corrupti quas cupiditate consectetur placeat! Deserunt voluptates enim, omnis obcaecati quidem qui magni, doloribus debitis unde deleniti autem! Porro nisi tempore explicabo magni saepe ab culpa minima molestias enim voluptatem!</p>
-                <span id="noimage-mockup"></span>
-            </div>
-        </div>
-
-
-
-
-    </div>
-
-    <div class="options-next">
-        <span class="button-pagination"></span>
-        <span class="button-pagination"></span>
-        <span class="button-pagination" id="prueba"></span>
-    </div>
-</div>
 @endsection

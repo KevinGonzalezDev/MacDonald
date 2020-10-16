@@ -14,11 +14,15 @@
 
         --main-width-eventos-container:350px;
         --main-height-eventos-image:200px;
-    
+
     }
 
     .contain-titleWithBackground-container{
         width:80%;
+    }
+
+    .menu-container{
+        width: 90%;
     }
 }
 
@@ -35,6 +39,13 @@
     .feedback-container{
         width: 90%;
     }
+
+
+    .timer-count-container i{
+        font-size: 1.6em;
+    }
+
+
 }
 
 @media screen and (max-width: 1280px){
@@ -53,6 +64,10 @@
 
     .livestream-info-container p{
         width: 80%;
+    }
+
+    .timer-count-container i{
+        font-size: 1.4em;
     }
 
 }
@@ -103,14 +118,14 @@
 
     .livestream-container{
         flex-direction: column;
-        height: 600px;
+        height: 500px;
     }
 
     .livestream-info-container{
         width: 100%;
         padding: 3.5rem 0 3.5rem 0;
     }
-    
+
     .livestreamimg-mask{
         width: 100%;
     }
@@ -159,6 +174,10 @@
     .block-eventos{
         margin: 1rem auto 1rem auto;
     }
+
+    .timer-container{
+        width: 100%;
+    }
 }
 
 
@@ -205,6 +224,23 @@
         width: 45px;
         margin: 1em;
     }
+
+    .timer-container{
+        flex-direction: column;
+    }
+
+    .timerimg-mask{
+        width: 100%;
+    }
+
+    .timer-count-container{
+        width: 100%;
+        padding: 1.5em 0 1.5em 0;
+    }
+
+    .social-footer-container ul li a img{
+        width: 40px;
+    }
 }
 
 @media screen and (max-width:375px){
@@ -232,7 +268,7 @@
     .header-tickets{
         height: 150px;
     }
-    
+
     .info-titleWithBackground-container{
         padding: 2rem 0 2rem 0;
     }
@@ -251,6 +287,10 @@
         --main-width-eventos-container:310px;
         --main-height-eventos-image:160px;
     }
+
+    .social-footer-container ul li a img{
+        width: 35px;
+    }
 }
 
 @media screen and (max-width:320px){
@@ -266,5 +306,14 @@
     .social-footer-container ul li{
         padding: .5em;
     }
+
+    .timer-count-container i{
+        font-size: 1.3em;
+    }
+
+    .timer-count-container span{
+        padding:0 .5em 0 .5em;
+    }
+
 }
 /* MOBILE RESOLUTION END */
