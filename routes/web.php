@@ -17,4 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::POST('webhook', 'App\Http\Controllers\WebhookController@handle');
 Route::get('mailing', 'App\Http\Controllers\AdminController@mailing');

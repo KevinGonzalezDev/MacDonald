@@ -6,6 +6,15 @@
     <title>Ronald Mac Donald</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <?php echo '<script type="text/javascript" src = "js/config.js?v='.date("Y-m-d H:i:s").'"></script>';?>
+    <?php echo '<script type="text/javascript" src = "js/mobile-menu.js?v='.date("Y-m-d H:i:s").'"></script>';?>
+    <?php echo '<script type="text/javascript" src = "js/pagination.js?v='.date("Y-m-d H:i:s").'"></script>';?>
+    <?php echo '<script type="text/javascript" src = "js/timer.js?v='.date("Y-m-d H:i:s").'"></script>';?>
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
 </head>
 <body>
 
