@@ -241,6 +241,10 @@
     .social-footer-container ul li a img{
         width: 40px;
     }
+
+    .mailing-container{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width:375px){

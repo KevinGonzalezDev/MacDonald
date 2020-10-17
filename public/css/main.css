@@ -49,6 +49,9 @@
     --main-width-eventos-container:400px;
     --main-height-eventos-image:200px;
 
+    --main-width-button:280px;
+    --main-height-button:100px;
+
 }
 
 h2,h3,h4,h5,p,a{
@@ -812,4 +815,133 @@ ul{
     font-size: var(--main-font-size-titles);
     color: var(--main-red-color);
     font-family: var(--font-family-bold);
+}
+
+
+/* API */
+
+.absolute-button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.api-container{
+    cursor: pointer;
+}
+
+#mascara{
+    pointer-events: none;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    background-color: var(--main-yellow-color);
+    color: var(--main-white-color);
+    font-family: var(--font-family-regular);
+    font-size: var(--main-font-size-middleTitles);
+    border-radius: 25px;
+    text-decoration: none;
+    width: var(--main-width-button);
+    height: var(--main-height-button);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: .6s;
+}
+
+
+#afrus-container-form button{
+    background: none !important;
+    font-size: 0px !important;
+    z-index: 3;
+    width: var(--main-width-button) !important;
+    height: var(--main-height-button) !important;
+    cursor: pointer;
+}
+
+/* MAILING */
+.mailing-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.header-mailing{
+    width: 100%;
+    overflow: hidden;
+    height: 450px;
+}
+
+.header-mailing img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.title-mail{
+    align-self: flex-start;
+}
+
+.title-mail h2{
+    font-family: var(--font-family-bold);
+    font-size: var(--main-font-size-middleTitles);
+    margin: .5em;
+}
+
+.title-mail p{
+    font-family: var(--font-family-light);
+    font-size: var(--main-font-size-paragraphs);
+    margin: .5em;
+    color: #4B4B4B;
+}
+
+.body-text-mail{
+    margin-top: 5em;
+}
+
+.body-text-mail h2{
+    text-align: center;
+    font-family: var(--font-family-bold);
+    font-size: var(--main-font-size-middleTitles);
+    margin-bottom: .5em;
+}
+
+.body-mailing{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-text-mail p{
+    text-align: justify;
+    font-family: var(--font-family-light);
+    font-size: var(--main-font-size-paragraphs);
+    width: 80%;
+    margin: auto;
+    color: #4B4B4B;
+}
+
+#cita{
+    margin-top: 2em;
+}
+
+#join-here{
+    display: inline-block;
+    padding: 1em 2em 1em 2em;
+    background-color: var(--main-red-color);
+    font-family: var(--font-family-regular);
+    font-size: var(--main-font-size-verySmallTitles);
+    text-decoration: none;
+    color: var(--main-white-color);
+    margin: 4em 0 4em 0;
 }

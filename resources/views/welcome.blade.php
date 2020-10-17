@@ -82,8 +82,17 @@
         </div>
 
 
-        <div id="afrus-container-form" data-form="Zm9ybS0xMTkzLW9yZ2FuaXphdGlvbi04MA=="></div>
-          <script src="https://my.afrus.app/template/index.js"></script>
+        <div class="absolute-button">
+
+            <div id="mascara" href="">Compra Aquí</div>
+
+            <div class="api-container">
+                <div id="afrus-container-form" data-form="Zm9ybS0xMTkzLW9yZ2FuaXphdGlvbi04MA=="></div>
+                <script src="https://my.afrus.app/template/index.js"></script>
+            </div>
+            
+        </div>
+        
 
 
 
