@@ -33,8 +33,7 @@
 
     <div class="titleWithBackground-container">
         <div class="info-titleWithBackground-container">
-            <h2>¡Adquiere tu ticket!</h2>
-            <p>¡Adquiere ya tu ticket y haz parte de la receta solidaria!</p>
+            <h2>¡Adquiere ya tu ticket y haz parte de la receta solidaria!</h2>
         </div>
 </div>
         <div class="contain-titleWithBackground-container">
@@ -116,7 +115,6 @@
 
                    <div class="eventos-info-container">
                        <h2>Palabras en vivo del Gerente Hector Orozco Giraldo.</h2>
-                       <p>Los eventos virtuales llegaron para quedarse. El desafío de encontrar nuevas experiencias.</p>
                    </div>
                </div>
 
@@ -130,7 +128,6 @@
                    </div>
                    <div class="eventos-info-container">
                        <h2>¡La gran chef Colombiana te enseñará a preparar una deliciosa receta en vivo!</h2>
-                       <p>La resiliencia es uno de los factores determinantes del éxito y la reorientación estratégica.</p>
                    </div>
                </div>
 
@@ -144,7 +141,6 @@
                    </div>
                    <div class="eventos-info-container">
                        <h2>El espectacular show de la agrupación Colombiana con reconocimiento a nivel mundial.</h2>
-                       <p id="black-paragraph">Sed ut perspiciatis unde omnis iste natus error voluptatem accusan tium dolore.</p>
                    </div>
                </div>
            </div>
@@ -167,7 +163,18 @@
    </div>
 
 
-   <h2 id="welcome">¡Bienvenido a La Casa Ronald!</h2>
+
+   <div class="welcome-container">
+       <h2>¡Bienvenido a La Casa Ronald!</h2>
+
+       <p>Miles de familias con niños enfermos acuden a hospitales para recibir tratamiento médico especializado lejos de su hogar.
+          La incertidumbre y las dificultades propias de esta situación, junto a los costos de transporte, alimentación y alojamiento pueden convertirse en causa de estrés emocional y financiero para las familias.
+          La Fundación Casa Ronald McDonald conoce esta problemática y se ha especializado en crear programas de atención para las familias cuyo objetivo es mejorar la calidad de vida, el bienestar psicológico y la experiencia general de la hospitalización para el paciente y su familia.
+       </p>
+
+       <img src="img/templates/fundacion.jpg" alt="fundacion">
+   </div>
+
 
 
    <!-- CONTENIDO DE lIVESTREAM !END! ------------------------------------------------------------------------------ -->
