@@ -52,9 +52,11 @@
 <div class="footer-container">
     <div class="info-footer-container">
         <ul>
-            <li><img src="img/icons/location.png" alt="location icon"><p>7909 Route 29, Buffalo, NY 14215</p></li>
-            <li><img src="img/icons/phone.png" alt="phone icon"><p>+1-202-555-0153</p><br><p>+1-202-555-0116</p></li>
-            <li><img src="img/icons/email.png" alt="email icon"><p>info@eventy123.com</p><br><p>contact@eventy123.com</p></li>
+            <li><p style="font-weight: bold;" >Contacto:</p></li>
+            <li><p>Diana Peña Giraldo</p></li>
+            <li><p>Dir. Ejecutiva</p></li>
+            <li><p>diana.pena@casaronald.org.co</p></li>
+            <li><p>Fundación Casa Ronald McDonald de Colombia</p></li>
         </ul>
     </div>
 

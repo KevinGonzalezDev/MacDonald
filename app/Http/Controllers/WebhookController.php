@@ -12,9 +12,9 @@ class WebhookController extends Controller
   public function handle(Request $request)
   {
     $respuesta = json_decode($request->getContent());
-  //  $correo = $respuesta->data->email;
+    $correo = $respuesta->data->email;
 
-    Mail::to("juanario1997@gmail.com")->send(
+    Mail::to($correo)->send(
       new DatosIngreso($request)
     );
   }
