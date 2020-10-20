@@ -82,7 +82,7 @@
                 </ul>
             </div>
 
-            
+
 
         </div>
 
@@ -117,7 +117,7 @@
                    </div>
 
                    <div class="eventos-info-container">
-                       <h2>Palabras en vivo del Gerente Hector Orozco Giraldo.</h2>
+                       <h2>Palabras en vivo de Héctor Orozco, Gerente General Arcos Dorados Colombia, Aruba, Curazao y Trinidad & Tobago y Presidente Consejo Directivo Fundación Casa Ronald McDonald de Colombia.</h2>
                    </div>
                </div>
 
@@ -153,7 +153,7 @@
 
         <div class="livestream-container">
         <div class="livestreamimg-mask">
-            <img src="img/livestream/livestream.jpg" alt="livestream image">
+            <img src="img/livestream/livestream_1.png" alt="livestream image">
         </div>
         <div class="livestream-info-container">
             <h2>Leo Espinosa</h2>
@@ -174,7 +174,7 @@
         <img src="img/templates/fundacion.jpg" alt="fundacion">
     </div>
 
-    
+
 
 
 @endsection

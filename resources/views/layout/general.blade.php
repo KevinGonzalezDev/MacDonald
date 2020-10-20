@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ronald Mac Donald</title>
+    <title>Casa Ronald McDonald</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -59,17 +59,15 @@
             </p>
 
             <p>diana.pena@casaronald.org.co</p>
-            <p>Fundación Casa Ronald MacDonald de Colombia</p>
+            <p>Fundación Casa Ronald McDonald de Colombia</p>
 
         </div>
-        
+
     </div>
 
     <div class="social-footer-container">
         <ul>
-            <li><a href="http://www.casaronald.org.co"><img src="img/icons/www.png" alt="social icon"></a></li>
             <li><a href="https://www.facebook.com/CasaRonaldColombia/"><img src="img/icons/facebook.png" alt="social icon"></a></li>
-            <li><a href="https://www.flickr.com/photos/casa-ronald-mcdonald-de-colombia/"><img src="img/icons/flickr.png" alt="social icon"></a></li>
             <li><a href="https://instagram.com/casaronaldcolombia"><img src="img/icons/instagram.png" alt="social icon"></a></li>
             <li><a href="https://twitter.com/casaronaldcol"><img src="img/icons/twitter.png" alt="social icon"></a></li>
         </ul>
