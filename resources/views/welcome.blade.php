@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="heroimage-mask">
-        <img src="img/templates/heroimage.jpg" alt="Hero home image" id="hero-image">
+        <img src="img/templates/fcr_banner_home.png" alt="Hero home image" id="hero-image">
     </div>
 
 
@@ -33,11 +33,21 @@
 
     <div class="titleWithBackground-container">
         <div class="info-titleWithBackground-container">
-            <h2>¡Adquiere tu ticket!</h2>
-            <p>Sé parte de uno de los eventos más esperado del año.</p>
+        <h2>¡Adquiere ya tu ticket y haz parte de la receta solidaria!</h2>
         </div>
 </div>
         <div class="contain-titleWithBackground-container">
+
+
+        <div class="block-ticket">
+                <img src="img/tickets/ticket-11.png" alt="">
+                <h2 id="price">80.000</h2>
+                <h2>INCLUYE</h2>
+                <ul>
+                    <li>1 Ingreso</li>
+                    <li>Sin box</li>
+                </ul>
+            </div>
 
             <div class="block-ticket">
                 <img src="img/tickets/ticket-07.png" alt="">
@@ -45,7 +55,8 @@
                 <h2>INCLUYE</h2>
                 <ul>
                     <li>1 Ingreso al evento</li>
-                    <li>+ emotional box</li>
+                    <li>+ Box Premium</li>
+                    <li class="small-text">(Caja con ingredientes para preparar una deliciosa receta guiada por Leo Espinosa)</li>
                 </ul>
             </div>
 
@@ -55,7 +66,8 @@
                 <h2>INCLUYE</h2>
                 <ul>
                     <li>2 Ingresos</li>
-                    <li>+ 2 emotional box</li>
+                    <li>+ 2 Box Premium</li>
+                    <li class="small-text">(Caja con ingredientes para preparar una deliciosa receta guiada por Leo Espinosa)</li>
                 </ul>
             </div>
 
@@ -65,19 +77,12 @@
                 <h2>INCLUYE</h2>
                 <ul>
                     <li>3 Ingresos</li>
-                    <li>+ 3 emotioal box</li>
+                    <li>+ 3 Box Premium</li>
+                    <li class="small-text">(Caja con ingredientes para preparar una deliciosa receta guiada por Leo Espinosa)</li>
                 </ul>
             </div>
 
-            <div class="block-ticket">
-                <img src="img/tickets/ticket-09.png" alt="">
-                <h2 id="price">990.000</h2>
-                <h2>INCLUYE</h2>
-                <ul>
-                    <li>4 Ingresos</li>
-                    <li>+ 4 emotioal box</li>
-                </ul>
-            </div>
+            
 
         </div>
 
@@ -87,7 +92,7 @@
             <div id="mascara" href="">Compra Aquí</div>
 
             <div class="api-container">
-                <div id="afrus-container-form" data-form="Zm9ybS0xMjA4LW9yZ2FuaXphdGlvbi02MA=="></div>
+                <div id="afrus-container-form" data-form="Zm9ybS0xMTkzLW9yZ2FuaXphdGlvbi04MA=="></div>
                 <script src="https://my.afrus.app/template/index.js"></script>
             </div>
 
@@ -95,6 +100,81 @@
         </div>
 
 
+        <!-- CONTENIDO DE EVENTOS ------------------------------------------------------------------------------ -->
+
+
+   <div class="eventos-container">
+       <h2>Nuestro Evento</h2>
+
+           <div class="blocks-evento-container">
+               <div class="block-eventos">
+                   <div class="eventosimg-mask">
+                       <div class="eventosimg-filter-container">
+                           <p>EN VIVO</p>
+                           <span></span>
+                       </div>
+                       <img src="img/eventos/1.jpg" alt="Gerente MacDonalds">
+                   </div>
+
+                   <div class="eventos-info-container">
+                       <h2>Palabras en vivo del Gerente Hector Orozco Giraldo.</h2>
+                   </div>
+               </div>
+
+               <div class="block-eventos">
+                   <div class="eventosimg-mask">
+                       <div class="eventosimg-filter-container">
+                           <p>EN SEGUIDA</p>
+                           <span></span>
+                       </div>
+                       <img src="img/eventos/2.jpg" alt="Gerente MacDonalds">
+                   </div>
+                   <div class="eventos-info-container">
+                       <h2>¡La gran chef Colombiana te enseñará a preparar una deliciosa receta en vivo!</h2>
+                   </div>
+               </div>
+
+               <div class="block-eventos">
+                   <div class="eventosimg-mask">
+                       <div class="eventosimg-filter-container">
+                           <p>DESPUÉS</p>
+                           <span></span>
+                       </div>
+                       <img src="img/eventos/3.jpg" alt="Gerente MacDonalds">
+                   </div>
+                   <div class="eventos-info-container">
+                       <h2>El espectacular show de la agrupación Colombiana con reconocimiento a nivel mundial.</h2>
+                   </div>
+               </div>
+           </div>
+   </div>
+
+   <!-- CONTENIDO DE EVENTOS !END!------------------------------------------------------------------------------ -->
+
+        <div class="livestream-container">
+        <div class="livestreamimg-mask">
+            <img src="img/livestream/livestream.jpg" alt="livestream image">
+        </div>
+        <div class="livestream-info-container">
+            <h2>Leo Espinosa</h2>
+            <p>La chef de Restaurante Leo (antes Leo Cocina y Cava), situado en Bogotá, ostenta el puesto 49 en la lista de los 50 mejores restaurantes de América Latina 2014.  ha sido reconocida como Mejor Chef Femenina de América Latina en 2017. Nació en Cartagena y se define como economista y artista plástica. Y su trabajo entre los fogones de su restaurante se centra en mostrar, reivindicar y potenciar las tradiciones gastronómicas de las comunidades colombianas, a partir de su patrimonio biológico, cultural e inmaterial.</p>
+            <a href="#" id="join-livestream">Acceder</a>
+        </div>
+    </div>
+
+
+    <div class="welcome-container">
+        <h2>¡Bienvenido a La Casa Ronald!</h2>
+
+        <p>Miles de familias con niños enfermos acuden a hospitales para recibir tratamiento médico especializado lejos de su hogar.
+           La incertidumbre y las dificultades propias de esta situación, junto a los costos de transporte, alimentación y alojamiento pueden convertirse en causa de estrés emocional y financiero para las familias.
+           La Fundación Casa Ronald McDonald conoce esta problemática y se ha especializado en crear programas de atención para las familias cuyo objetivo es mejorar la calidad de vida, el bienestar psicológico y la experiencia general de la hospitalización para el paciente y su familia.
+        </p>
+
+        <img src="img/templates/fundacion.jpg" alt="fundacion">
+    </div>
+
+    
 
 
 @endsection
