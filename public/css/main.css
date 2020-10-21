@@ -1346,7 +1346,7 @@ ul{
     font-size: var(--main-font-size-verySmallTitles);
     font-family: var(--font-family-regular);
     color: #fff;
-    
+
 }
 
 
@@ -1606,7 +1606,7 @@ ul{
 
     margin:10rem 0 10rem 0;
 
-    width: 50%;
+    width: 70%;
 
     margin: auto;
 
@@ -1746,4 +1746,26 @@ ul{
 
 .small-text{
     font-size: var(--main-font-size-smallParagraphs) !important;
+}
+
+
+
+.fotos-fundacion-container{
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.fotos-fundacion-container img{
+  display: flex;
+  width: var(--main-width-eventos-container);
+  height: var(--main-width-eventos-container);
+  margin: 4rem auto 4rem auto;
+  object-fit: cover;
 }
