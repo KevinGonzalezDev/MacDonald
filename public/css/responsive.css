@@ -5,7 +5,12 @@
 /* DESKTOP RESOLUTION */
 
 
-
+@media screen and (max-width:1700px){
+  :root{
+    --main-height-eventos-image:200px;
+    --main-width-eventos-container:350px;
+  }
+}
 
 
 @media screen and (max-width:1600px){
@@ -94,7 +99,7 @@
     .block-ticket{
         height: 400px;
     }
-    
+
 
 
 }
@@ -660,4 +665,3 @@
 }
 
 /* MOBILE RESOLUTION END */
-

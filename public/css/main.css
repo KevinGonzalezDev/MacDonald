@@ -1606,7 +1606,7 @@ ul{
 
     margin:10rem 0 10rem 0;
 
-    width: 70%;
+    width: 80%;
 
     margin: auto;
 
@@ -1650,7 +1650,6 @@ ul{
 
     margin: 3em auto 0 auto;
 
-    width: 100%;
 
 }
 
@@ -1762,10 +1761,16 @@ ul{
   align-items: center;
 }
 
-.fotos-fundacion-container img{
-  display: flex;
+.mascara-imagen{
   width: var(--main-width-eventos-container);
-  height: var(--main-width-eventos-container);
-  margin: 4rem auto 4rem auto;
+  height: var(--main-width-eventos-container);;
+  margin: 1rem auto 1rem auto;
+  overflow: hidden;
+}
+
+.mascara-imagen img{
+  display:block;
   object-fit: cover;
+  width: 100%;
+  object-position: center;
 }

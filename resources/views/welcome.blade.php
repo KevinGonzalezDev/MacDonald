@@ -170,11 +170,18 @@
            La incertidumbre y las dificultades propias de esta situación, junto a los costos de transporte, alimentación y alojamiento pueden convertirse en causa de estrés emocional y financiero para las familias.
            La Fundación Casa Ronald McDonald conoce esta problemática y se ha especializado en crear programas de atención para las familias cuyo objetivo es mejorar la calidad de vida, el bienestar psicológico y la experiencia general de la hospitalización para el paciente y su familia.
         </p>
+        <img src="img/icons/logo.png" alt="fundacion">
 
         <div class="fotos-fundacion-container">
-          <img src="img/templates/fundacion1.jpeg" alt="fundacion">
-          <img src="img/templates/fundacion2.jpg" alt="fundacion">
-          <img src="img/templates/fundacion3.jpg" alt="fundacion">
+          <div class="mascara-imagen">
+            <img src="img/templates/fundacion1.jpg" alt="fundacion">
+          </div>
+          <div class="mascara-imagen">
+            <img src="img/templates/fundacion2.jpg" alt="fundacion">
+          </div>
+          <div class="mascara-imagen">
+            <img src="img/templates/fundacion3.jpg" alt="fundacion">
+          </div>
         </div>
 
 
