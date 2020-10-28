@@ -94,7 +94,7 @@
 
 
 
-    --main-width-eventos-container:400px;
+    --main-width-eventos-container:300px;
 
     --main-height-eventos-image:200px;
 
@@ -380,6 +380,19 @@ ul{
 
 }
 
+.heroimage-mask p{
+
+    font-size: var(--main-font-size-paragraphs);
+
+    font-family: var(--font-family-light);
+
+    color: var(--main-black-color);
+
+    text-align: center;
+
+    margin: 1em 20px 0 20px;
+
+}
 
 
 
@@ -774,7 +787,7 @@ ul{
 
     display: block;
 
-    width: 70%;
+    width: 90%;
 
     margin: 4rem auto auto auto;
 
@@ -994,7 +1007,7 @@ ul{
 
     overflow: hidden;
 
-    margin: 10rem 0 5rem 0;
+    margin: 0;
 
 }
 
@@ -1010,6 +1023,15 @@ ul{
 
 }
 
+.livestreamimg-mask-video{
+  
+  width: 50%;
+
+  overflow: hidden;
+
+  background-color: var(--main-black-color);
+}
+
 
 
 .livestreamimg-mask img{
@@ -1023,6 +1045,20 @@ ul{
     height: 100%;
 
     opacity: .6;
+
+}
+
+.livestreamimg-mask-video iframe{
+
+    object-position: center;
+
+    object-fit: cover;
+
+    width: 100%;
+
+    height: 100%;
+
+    opacity: .8;
 
 }
 
@@ -1776,7 +1812,7 @@ ul{
 
   flex-wrap: wrap;
 
-  justify-content: space-between;  
+  justify-content: space-between;
 
   align-items: center;
 
@@ -1797,3 +1833,63 @@ ul{
   width: 100%;
   object-position: center;
 }
+
+/* Ajustes OCT-28 */
+
+.texto-desc-ama{
+
+
+    font-family: var(--font-family-light);
+    font-size: var(--main-font-size-paragraphs);
+    color: var(--main-yellow-color);
+    font-weight: bold;
+    text-align: center;
+    margin: 3em 20px 0 20px;
+
+}
+
+
+.patrocinadores-container{
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  width: 65%;
+
+  margin: 10px auto auto auto;
+}
+
+.patrocinadores-imagen{
+  width: 200px;
+  height: 220px;
+  overflow: hidden;
+}
+
+.patrocinadores-imagen img{
+  display:block;
+  object-fit: cover;
+  width: 100%;
+  object-position: center;
+  margin: 5px 10px auto 10px;
+}
+
+.patrocinadores-tittle{
+
+    text-align: center;
+
+    font-size: var(--main-font-size-titles);
+
+    color: var(--main-red-color);
+
+    font-family: var(--font-family-bold);
+    margin-bottom: 25px;
+
+}
+
+/*END Ajustes OCT-28 */

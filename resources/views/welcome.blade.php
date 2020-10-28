@@ -2,8 +2,14 @@
 
 @section('content')
 <div class="heroimage-mask">
-        <img src="img/templates/fcr_banner_home.png" alt="Hero home image" id="hero-image">
+        <img src="img/templates/banner.png" alt="Hero home image" id="hero-image">
+        <p>Este show
+  es un evento de recaudación de fondos a favor de la Fundación Casa Ronald McDonald, en busca
+  de no detenernos y seguir trabajando por las familias que tienen a sus hijos enfermos y deben
+  permanecer unidas.</p>
+
     </div>
+
 
 
     <div class="timer-container">
@@ -36,16 +42,19 @@
         <h2>¡Adquiere ya tu ticket y haz parte de la receta solidaria!</h2>
         </div>
 </div>
+  <h2 class="texto-desc-ama">Creamos un evento ÚNICO en el que te cautivamos a
+    través de los sentidos como el oído, el gusto y el tacto.</h2>
+
         <div class="contain-titleWithBackground-container">
 
 
         <div class="block-ticket">
-                <img src="img/tickets/ticket-11.png" alt="">
+                <img src="img/tickets/ticket-sencillo.png" alt="">
                 <h2 id="price">80.000</h2>
-                <h2>INCLUYE</h2>
+                <h2>Ingresa al evento y sorpréndete.</h2>
                 <ul>
-                    <li>1 Ingreso</li>
-                    <li>Sin box</li>
+
+                    <li>Ticket no incluye Box Premium</li>
                 </ul>
             </div>
 
@@ -56,7 +65,7 @@
                 <ul>
                     <li>1 Ingreso al evento</li>
                     <li>+ Box Premium</li>
-                    <li class="small-text">(Caja con ingredientes para preparar una deliciosa receta guiada por Leo Espinosa)</li>
+                    <li class="small-text">(Caja con ingredientes para preparar una deliciosa receta guiada por Leo Espinosa y muchas sorpresas)</li>
                 </ul>
             </div>
 
@@ -67,7 +76,7 @@
                 <ul>
                     <li>2 Ingresos</li>
                     <li>+ 2 Box Premium</li>
-                    <li class="small-text">(Caja con ingredientes para preparar una deliciosa receta guiada por Leo Espinosa)</li>
+                    <li class="small-text">(Caja con ingredientes para preparar una deliciosa receta guiada por Leo Espinosa y muchas sorpresas)</li>
                 </ul>
             </div>
 
@@ -78,7 +87,7 @@
                 <ul>
                     <li>3 Ingresos</li>
                     <li>+ 3 Box Premium</li>
-                    <li class="small-text">(Caja con ingredientes para preparar una deliciosa receta guiada por Leo Espinosa)</li>
+                    <li class="small-text">(Caja con ingredientes para preparar una deliciosa receta guiada por Leo Espinosa y muchas sorpresas)</li>
                 </ul>
             </div>
 
@@ -113,6 +122,20 @@
                            <p>EN VIVO</p>
                            <span></span>
                        </div>
+                       <img src="img/eventos/andrea_evento.png" alt="Gerente MacDonalds">
+                   </div>
+
+                   <div class="eventos-info-container">
+                       <h2>La conducción del evento estará a cargo de la bellísima Andrea Jaramillo, que nos guiará por una noche llena de sorpresas.</h2>
+                   </div>
+               </div>
+
+               <div class="block-eventos">
+                   <div class="eventosimg-mask">
+                       <div class="eventosimg-filter-container">
+                           <p>EN VIVO</p>
+                           <span></span>
+                       </div>
                        <img src="img/eventos/1.jpg" alt="Gerente MacDonalds">
                    </div>
 
@@ -127,7 +150,7 @@
                            <p>EN SEGUIDA</p>
                            <span></span>
                        </div>
-                       <img src="img/eventos/2.jpg" alt="Gerente MacDonalds">
+                       <img src="img/eventos/nuestro_evento_le.png" alt="Gerente MacDonalds">
                    </div>
                    <div class="eventos-info-container">
                        <h2>¡La gran chef Colombiana te enseñará a preparar una deliciosa receta en vivo!</h2>
@@ -140,16 +163,53 @@
                            <p>DESPUÉS</p>
                            <span></span>
                        </div>
-                       <img src="img/eventos/3.jpg" alt="Gerente MacDonalds">
+                       <img src="img/eventos/nuestro_evento_mp.png" alt="Gerente MacDonalds">
                    </div>
                    <div class="eventos-info-container">
                        <h2>El espectacular show de la agrupación Colombiana con reconocimiento a nivel mundial.</h2>
                    </div>
                </div>
+
+
+              <div class="block-eventos">
+                  <div class="eventosimg-mask">
+                      <div class="eventosimg-filter-container">
+                          <p>EN VIVO</p>
+                          <span></span>
+                      </div>
+                      <img src="img/eventos/familias_FCR.png" alt="Gerente MacDonalds">
+                  </div>
+
+                  <div class="eventos-info-container">
+                      <h2>Los invitados de honor: Las Familias que acogemos día a día en los siete programas de la Fundación en Bogotá, Medellín y Cartagena. ¡Ellos son y serán siempre nuestro motor!</h2>
+                  </div>
+              </div>
+
            </div>
    </div>
 
    <!-- CONTENIDO DE EVENTOS !END!------------------------------------------------------------------------------ -->
+
+
+   <!-- CONTENIDO DE PATROCINADORES ------------------------------------------------------------------------------ -->
+
+   <h2 class="patrocinadores-tittle">Nuestros patrocinadores:</h2>
+
+   <div class="patrocinadores-container">
+       <div class="fotos-fundacion-container">
+         <div class="patrocinadores-imagen">
+           <img src="img/icons/Logo-cocacola.png" alt="fundacion">
+         </div>
+         <div class="patrocinadores-imagen">
+           <img src="img/icons/Logo-fdb.png" alt="fundacion">
+         </div>
+       </div>
+   </div>
+   <br>
+   <br>
+   <br>
+
+   <!-- CONTENIDO DE PATROCINADORES !END!------------------------------------------------------------------------------ -->
 
         <div class="livestream-container">
         <div class="livestreamimg-mask">
@@ -161,26 +221,44 @@
             <a href="#" id="join-livestream">Acceder</a>
         </div>
     </div>
+    <div class="livestream-container">
+    <div class="livestream-info-container">
+        <h2>Monsieur Periné</h2>
+        <p>Es una de las bandas alternativas colombianas que más resuenan en el mundo. Es un grupo
+musical colombiano que combina sonidos de géneros como jazz, pop, swing, world Music y con
+ritmos autóctonos.</p>
+        <a href="#" id="join-livestream">Acceder</a>
+    </div>
+    <div class="livestreamimg-mask">
+        <img src="img/livestream/monsieuir.png" alt="livestream image">
+    </div>
+</div>
+<div class="livestream-container">
+<div class="livestreamimg-mask-video">
+    <iframe  src="//www.youtube.com/embed/wd_ZrWEbopg" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="livestream-info-container">
+    <h2>Fundación Casa Ronald Mcdonald</h2>
+    <p>La Fundación Casa Ronald McDonald es un equipo especializado que los 365 días del año brinda
+todo lo necesario para que las familias que atendemos, transiten dignamente la enfermedad de
+sus hijos. Ofrecemos espacios totalmente gratuitos donde puedan descansar, cocinar, lavar su
+ropa, dormir o simplemente pasar el tiempo mientras esperan a sus hijos que están en
+tratamiento médico.</p>
+    <a href="#" id="join-livestream">Acceder</a>
+</div>
+</div>
 
-
+<br>
+<br>
+<br>
     <div class="welcome-container">
+        <h2>¡Bienvenido a La Casa Ronald!</h2>
 
-        <div class="info-welcome-container">
-
-            <h2>¡Bienvenido a La Casa Ronald!</h2>
-
-            <p>Miles de familias con niños enfermos acuden a hospitales para recibir tratamiento médico especializado lejos de su hogar.
-            La incertidumbre y las dificultades propias de esta situación, junto a los costos de transporte, alimentación y alojamiento pueden convertirse en causa de estrés emocional y financiero para las familias.
-            La Fundación Casa Ronald McDonald conoce esta problemática y se ha especializado en crear programas de atención para las familias cuyo objetivo es mejorar la calidad de vida, el bienestar psicológico y la experiencia general de la hospitalización para el paciente y su familia.
-            </p>
-
-        </div>
-
-
-        
-        <img src="img/icons/logo.png" alt="fundacion" id="welcome-img">
-
-        
+        <p>Miles de familias con niños enfermos acuden a hospitales para recibir tratamiento médico especializado lejos de su hogar.
+           La incertidumbre y las dificultades propias de esta situación, junto a los costos de transporte, alimentación y alojamiento pueden convertirse en causa de estrés emocional y financiero para las familias.
+           La Fundación Casa Ronald McDonald conoce esta problemática y se ha especializado en crear programas de atención para las familias cuyo objetivo es mejorar la calidad de vida, el bienestar psicológico y la experiencia general de la hospitalización para el paciente y su familia.
+        </p>
+        <img src="img/icons/logo.png" alt="fundacion">
 
         <div class="fotos-fundacion-container">
           <div class="mascara-imagen">
