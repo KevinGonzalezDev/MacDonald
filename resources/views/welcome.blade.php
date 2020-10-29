@@ -119,7 +119,6 @@
                <div class="block-eventos">
                    <div class="eventosimg-mask">
                        <div class="eventosimg-filter-container">
-                           <p>EN VIVO</p>
                            <span></span>
                        </div>
                        <img src="img/eventos/andrea_evento.png" alt="Gerente MacDonalds">
@@ -133,7 +132,6 @@
                <div class="block-eventos">
                    <div class="eventosimg-mask">
                        <div class="eventosimg-filter-container">
-                           <p>EN VIVO</p>
                            <span></span>
                        </div>
                        <img src="img/eventos/1.jpg" alt="Gerente MacDonalds">
@@ -147,7 +145,6 @@
                <div class="block-eventos">
                    <div class="eventosimg-mask">
                        <div class="eventosimg-filter-container">
-                           <p>EN SEGUIDA</p>
                            <span></span>
                        </div>
                        <img src="img/eventos/nuestro_evento_le.png" alt="Gerente MacDonalds">
@@ -160,7 +157,6 @@
                <div class="block-eventos">
                    <div class="eventosimg-mask">
                        <div class="eventosimg-filter-container">
-                           <p>DESPUÉS</p>
                            <span></span>
                        </div>
                        <img src="img/eventos/nuestro_evento_mp.png" alt="Gerente MacDonalds">
@@ -174,7 +170,6 @@
               <div class="block-eventos">
                   <div class="eventosimg-mask">
                       <div class="eventosimg-filter-container">
-                          <p>EN VIVO</p>
                           <span></span>
                       </div>
                       <img src="img/eventos/familias_FCR.png" alt="Gerente MacDonalds">
@@ -193,14 +188,15 @@
 
    <!-- CONTENIDO DE PATROCINADORES ------------------------------------------------------------------------------ -->
 
-   <h2 class="patrocinadores-tittle">Nuestros patrocinadores:</h2>
-
+   <h2 class="patrocinadores-tittle">Con el apoyo de:</h2>
+   <br>
+   <br>
    <div class="patrocinadores-container">
        <div class="fotos-fundacion-container">
          <div class="patrocinadores-imagen">
            <img src="img/icons/Logo-cocacola.png" alt="fundacion">
          </div>
-         <div class="patrocinadores-imagen">
+         <div class="patrocinadores-imagen1">
            <img src="img/icons/Logo-fdb.png" alt="fundacion">
          </div>
        </div>
@@ -213,24 +209,24 @@
 
         <div class="livestream-container">
         <div class="livestreamimg-mask">
-            <img src="img/livestream/livestream_1.png" alt="livestream image">
+            <img src="img/livestream/monsieuir.png" alt="livestream image">
         </div>
         <div class="livestream-info-container">
-            <h2>Leo Espinosa</h2>
-            <p>La chef de Restaurante Leo (antes Leo Cocina y Cava), situado en Bogotá, ostenta el puesto 49 en la lista de los 50 mejores restaurantes de América Latina 2014.  ha sido reconocida como Mejor Chef Femenina de América Latina en 2017. Nació en Cartagena y se define como economista y artista plástica. Y su trabajo entre los fogones de su restaurante se centra en mostrar, reivindicar y potenciar las tradiciones gastronómicas de las comunidades colombianas, a partir de su patrimonio biológico, cultural e inmaterial.</p>
+            <h2>Monsieur Periné</h2>
+            <p>Es una de las bandas alternativas colombianas que más resuenan en el mundo. Es un grupo
+              musical colombiano que combina sonidos de géneros como jazz, pop, swing, world Music y con
+              ritmos autóctonos.</p>
             <a href="#" id="join-livestream">Acceder</a>
         </div>
     </div>
     <div class="livestream-container">
     <div class="livestream-info-container">
-        <h2>Monsieur Periné</h2>
-        <p>Es una de las bandas alternativas colombianas que más resuenan en el mundo. Es un grupo
-musical colombiano que combina sonidos de géneros como jazz, pop, swing, world Music y con
-ritmos autóctonos.</p>
+        <h2>Leo Espinosa</h2>
+        <p>La chef de Restaurante Leo (antes Leo Cocina y Cava), situado en Bogotá, ostenta el puesto 49 en la lista de los 50 mejores restaurantes de América Latina 2014.  ha sido reconocida como Mejor Chef Femenina de América Latina en 2017. Nació en Cartagena y se define como economista y artista plástica. Y su trabajo entre los fogones de su restaurante se centra en mostrar, reivindicar y potenciar las tradiciones gastronómicas de las comunidades colombianas, a partir de su patrimonio biológico, cultural e inmaterial.</p>
         <a href="#" id="join-livestream">Acceder</a>
     </div>
     <div class="livestreamimg-mask">
-        <img src="img/livestream/monsieuir.png" alt="livestream image">
+        <img src="img/livestream/livestream_1.png" alt="livestream image">
     </div>
 </div>
 <div class="livestream-container">

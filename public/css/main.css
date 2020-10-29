@@ -88,9 +88,9 @@
 
     --main-font-size-verySmallTitles:16px;
 
-    --main-font-size-paragraphs:22px;
+    --main-font-size-paragraphs:25px;
 
-    --main-font-size-smallParagraphs:13px;
+    --main-font-size-smallParagraphs:15px;
 
 
 
@@ -1024,7 +1024,7 @@ ul{
 }
 
 .livestreamimg-mask-video{
-  
+
   width: 50%;
 
   overflow: hidden;
@@ -1860,7 +1860,7 @@ ul{
 
   align-items: center;
 
-  width: 65%;
+  width: 55%;
 
   margin: 10px auto auto auto;
 }
@@ -1871,7 +1871,20 @@ ul{
   overflow: hidden;
 }
 
+.patrocinadores-imagen1{
+  width: 150px;
+  overflow: hidden;
+}
+
 .patrocinadores-imagen img{
+  display:block;
+  object-fit: cover;
+  width: 100%;
+  object-position: center;
+  margin: 5px 10px auto 10px;
+}
+
+.patrocinadores-imagen1 img{
   display:block;
   object-fit: cover;
   width: 100%;
