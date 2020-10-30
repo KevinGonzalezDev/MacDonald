@@ -10,12 +10,11 @@ class GeneralController extends Controller
 {
   public function enviocorreo(){
       $respuesta = request()->get('email');
-
-
-
       Mail::to($respuesta)->send(
         new DatosIngreso('hola')
       );
 
     }
+    
+
 }

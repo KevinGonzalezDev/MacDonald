@@ -42,8 +42,26 @@
         <h2>¡Adquiere ya tu ticket y haz parte de la receta solidaria!</h2>
         </div>
 </div>
-  <h2 class="texto-desc-ama">Creamos un evento ÚNICO en el que te cautivamos a
-    través de los sentidos como el oído, el gusto y el tacto.</h2>
+  <h2 class="texto-desc-ama">Creamos un evento ÚNICO en el que te cautivaremos a través de los sentidos como el oído, el gusto y el tacto con nuestra box premium.</h2>
+  <br>
+  <br>
+
+  <div class="box-premium-container">
+  <div class="box-premium-img-mask">
+      <img src="img/templates/caja.png" alt="livestream image">
+      <p>Imagen de referencia</p>
+  </div>
+  <div class="box-premium-info-container">
+      <h2>Nuestra Box Premium incluye:</h2>
+      <ul>
+        <li>Ingredientes para la preparación de la receta</li>
+        <li>1 Coca Cola personal</li>
+        <li>Regalos de la Fundación</li>
+        <li>Y muchas sorpresas más</li>
+      </ul>
+
+  </div>
+</div>
 
         <div class="contain-titleWithBackground-container">
 

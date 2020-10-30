@@ -143,6 +143,27 @@
 
     }
 
+    .box-premium-info-container p{
+
+        width: 80%;
+
+    }
+
+
+    .box-premium-info-container{
+
+        height: 350px;
+
+    }
+
+
+
+    .box-premium-info-container p{
+
+        width: 80%;
+
+    }
+
 
 
     .timer-count-container i{
@@ -265,6 +286,14 @@
 
     }
 
+    .box-premium-container{
+
+        flex-direction: column;
+
+        height: 580px;
+
+    }
+
 
 
     .livestream-info-container{
@@ -275,9 +304,23 @@
 
     }
 
+    .box-premium-info-container{
+
+        width: 100%;
+
+        padding: 3.5rem 0 3.5rem 0;
+
+    }
+
 
 
     .livestreamimg-mask{
+
+        width: 100%;
+
+    }
+
+    .box-premium-img-mask{
 
         width: 100%;
 
@@ -580,7 +623,11 @@
 
     }
 
+    .box-premium-info-container{
 
+        padding: 1rem 0 2rem 0;
+
+    }
 
     .livestream-container{
 
