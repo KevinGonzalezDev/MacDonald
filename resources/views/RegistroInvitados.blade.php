@@ -13,7 +13,9 @@
                 <input type="text" name="nombre" id="nombre" placeholder="Tu nombre completo:*">
                 <input type="text" name="correo" id="correo" placeholder="Tu correo electrónico:*">
                 <input type="text" name="ciudad" id="ciudad" placeholder="Tu ciudad:*">
+
                 <input type="hidden" name="event_id" value="261">
+                <input type="hidden" name="form_id" value="1">
                 <input type="submit" value="Iniciar sesión" id="iniciar-sesion">
 
                 @if(count($errors))
@@ -40,7 +42,10 @@
                 <input type="text" name="dirección" id="dirección" placeholder="Tu dirección:*">
                 <input type="text" name="ciudad" id="ciudad" placeholder="Tu ciudad:*">
                 <input type="hidden" name="event_id" value="261">
+                <input type="hidden" name="form_id" value="2">
+
                 <input type="submit" value="Iniciar sesión" id="iniciar-sesion">
+
 
                 @if(count($errors))
                     <div class="form-group">
@@ -73,6 +78,7 @@
 
 
                 <input type="hidden" name="event_id" value="261">
+                <input type="hidden" name="form_id" value="3">
 
                 <input type="submit" value="Iniciar sesión" id="iniciar-sesion">
 
@@ -111,6 +117,7 @@
                 <input type="text" name="ciudadinvitado2" id="ciudadinvitado2" placeholder="Ciudad invitado 2:*">
 
                 <input type="hidden" name="event_id" value="261">
+                <input type="hidden" name="form_id" value="4">
                 <input type="submit" value="Iniciar sesión" id="iniciar-sesion">
 
                 @if(count($errors))
