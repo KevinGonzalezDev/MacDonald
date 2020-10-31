@@ -2023,3 +2023,62 @@ ul{
 
 
 /*END Ajustes OCT-28 */
+
+
+
+
+
+
+/* LOGIN COMPRADOR */
+
+.login-comprador-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 10rem auto 15rem auto;
+}
+
+.login-comprador-container form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-comprador-container form h2{
+    font-family: var(--font-family-bold);
+    font-size: var(--main-font-size-middleTitles);
+}
+
+.login-comprador-container form p, .login-comprador-container form label{
+    font-family: var(--font-family-regular);
+    font-size: var(--main-font-size-verySmallTitles);
+    text-align: center;
+}
+
+.login-comprador-container form input{
+    width: 100%;
+    padding: .6em;
+    font-size: var(--main-font-size-verySmallTitles);
+    font-family: var(--font-family-regular);
+}
+
+.login-comprador-container form input[type="submit"]{
+    border: none;
+    background-color: var(--main-red-color);
+    color: var(--main-white-color);
+}
+
+.inputs-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    margin: 2em 0 2em 0;
+}
+
+.inputs-container-one input{
+    margin: .9em 0 .9em 0;
+}
