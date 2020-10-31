@@ -4,6 +4,7 @@
 
 
 @if ($datos['info'][0]->Boleta == 1)
+<div class="login-comprador-container">
 <form id="ingresoForm1" action="{{route('RegistroEventMovil')}}" method="post">
               @csrf
                 <h2>Ticket sencillo</h2>
@@ -61,6 +62,8 @@
                 <input type="text" name="dirección" id="dirección" placeholder="Tu dirección:*">
                 <input type="text" name="ciudad" id="ciudad" placeholder="Tu ciudad:*">
                 <input type="hidden" name="event_id" value="261">
+                <input type="hidden" name="form_id" value="2">
+                <input type="hidden" name="comprador" value='{{$datos['info'][0]->id}}'>
 
 
               </div>
@@ -79,26 +82,6 @@
                           </ul>
                       </div>
                   </div>
-
-
-
-                <input type="hidden" name="form_id" value="2">
-                <input type="hidden" name="comprador" value='{{$datos['info'][0]->id}}'>
-
-                <input type="submit" value="Iniciar sesión" id="iniciar-sesion">
-
-
-                @if(count($errors))
-                    <div class="form-group">
-                        <div class="alert alert-danger">
-                            <ul>
-                                @foreach($errors->all() as $error)
-                                    <li>{{$error}}</li>
-                                @endforeach
-                            </ul>
-                        </div>
-                    </div>
-
                 @endif
     </form>
     </div>
@@ -188,9 +171,6 @@
           <input type="hidden" name="event_id" value="261">
           <input type="hidden" name="form_id" value="3">
           <input type="hidden" name="comprador" value='{{$datos['info'][0]->id}}'>
-
-
-                <input type="submit" value="Iniciar sesión" id="iniciar-sesion">
 
 
         </div>
