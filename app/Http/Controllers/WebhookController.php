@@ -64,22 +64,7 @@ class WebhookController extends Controller
 
       $client = new Client();
       #$res = $client->request('POST', 'http://www.eventmovil.com/entradas/event-products-register.php', [
-      $res = $client->request('POST', 'https://webhook.site/a5161dae-8340-416c-8e71-34fb528515ca', [
-        'form_params' => [
-            'first_name' => $nombre,
-            'last_name' => $apellido,
-            'email' => $correo,
-            'event_id' => '261',
-        ]
-     ]);
-     $res = $client->request('POST', 'https://webhook.site/a5161dae-8340-416c-8e71-34fb528515ca', [
-       'form_params' => [
-           'first_name' => $nombre,
-           'last_name' => $apellido,
-           'email' => $correo,
-           'event_id' => '261',
-       ]
-    ]);
+  
 
 
 

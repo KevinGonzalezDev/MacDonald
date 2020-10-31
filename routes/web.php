@@ -21,5 +21,5 @@ Route::POST('webhook', 'App\Http\Controllers\WebhookController@handle');
 Route::get('mailing', 'App\Http\Controllers\AdminController@mailing');
 Route::get('ingreso-comprador', 'App\Http\Controllers\AdminController@loginComprador');
 Route::post('login', 'App\Http\Controllers\AdminController@login');
-Route::get('login', 'App\Http\Controllers\AdminController@login');
-Route::post('registro-eventmovil', 'App\Http\Controllers\AdminController@RegistroEventMovil');
+Route::get('login', 'App\Http\Controllers\AdminController@login')->name('login');
+Route::post('/registro-eventmovil', 'App\Http\Controllers\AdminController@RegistroEventMovil')->name('RegistroEventMovil');
