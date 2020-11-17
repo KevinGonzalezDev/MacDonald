@@ -27,7 +27,7 @@
                 <input type="hidden" name="form_id" value="1">
                 <input type="hidden" name="comprador" value='{{$datos['info'][0]->id}}'>
 
-                <input type="submit" value="Iniciar sesión" id="iniciar-sesion">
+                <input type="submit" value="Registrar" id="iniciar-sesion">
 
 
 
@@ -68,7 +68,7 @@
 
               </div>
 
-              <input type="submit" value="Iniciar sesión" id="iniciar-sesion">
+              <input type="submit" value="Registrar" id="iniciar-sesion">
 
 
 
@@ -116,7 +116,7 @@
 
           </div>
 
-          <input type="submit" value="Iniciar sesión" id="iniciar-sesion">
+          <input type="submit" value="Registrar" id="iniciar-sesion">
 
           @if(count($errors))
               <div class="form-group">
@@ -175,7 +175,7 @@
 
         </div>
 
-          <input type="submit" value="Iniciar sesión" id="iniciar-sesion">
+          <input type="submit" value="Registrar" id="iniciar-sesion">
 
           @if(count($errors))
               <div class="form-group">

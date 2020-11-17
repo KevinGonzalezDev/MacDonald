@@ -12,7 +12,8 @@ use GuzzleHttp\Client;
 class AdminController extends Controller
 {
     public function mailing(){
-        Return view('mailing');
+
+        Return view('confirmacionRegistro');
     }
     public function loginComprador(){
         return view('loginComprador');
@@ -31,16 +32,31 @@ class AdminController extends Controller
                 . "FROM comprador "
                 . "where Email  = '$correo'");
 
-      $da1 = DB::SELECT("SELECT "
-                . " * "
-                . "FROM invitado "
-                . "where Comprador  = ".$da[0]->id);
 
-      if( count($da) > 0 && count($da1) == 0 ){
+
+      if( count($da) > 0  ){
         $datos = [
             'info'=>$da
         ];
-        return view('RegistroInvitados')->with('datos',$datos);
+
+        $da1 = DB::SELECT("SELECT "
+                  . " * "
+                  . "FROM invitado "
+                  . "where Comprador  = ".$da[0]->id);
+
+      if (count($da1) == 0) {
+          return view('RegistroInvitados')->with('datos',$datos);
+      }
+      else {
+        $ErroM = "El usuario ya realizó el proceso";
+        $datos = [
+
+          'Error'=>$ErroM
+                  ];
+        return back()->withErrors($ErroM);
+      }
+
+
       }else {
           $ErroM = "El usuario no esta registrado";
           $datos = [
@@ -88,6 +104,7 @@ class AdminController extends Controller
          $this->EnviarPOSTEventMovil(request()->get('nombre'),request()->get('correo'),request()->get('ciudad'),'-');
          $this->InsertarDB(request()->get('nombre'),request()->get('correo'),request()->get('ciudad'),'-',request()->get('comprador'));
 
+         Return view('confirmacionRegistro');
           break;
           case 2:
           $this->Validate(request(), [
@@ -109,7 +126,7 @@ class AdminController extends Controller
           $this->EnviarPOSTEventMovil(request()->get('nombre'),request()->get('correo'),request()->get('ciudad'),request()->get('dirección'));
           $this->InsertarDB(request()->get('nombre'),request()->get('correo'),request()->get('ciudad'),request()->get('dirección'),request()->get('comprador'));
 
-
+          Return view('confirmacionRegistro');
 
           break;
           case 3:
@@ -158,6 +175,8 @@ class AdminController extends Controller
 
           $this->EnviarPOSTEventMovil(request()->get('nombreinvitado1'),request()->get('correoinvitado1'),request()->get('ciudadinvitado1'),request()->get('direccióninvitado1'));
           $this->InsertarDB(request()->get('nombreinvitado1'),request()->get('correoinvitado1'),request()->get('ciudadinvitado1'),request()->get('direccióninvitado1'),request()->get('comprador'));
+
+          Return view('confirmacionRegistro');
 
           break;
           case 4:
@@ -222,6 +241,8 @@ class AdminController extends Controller
           $this->EnviarPOSTEventMovil(request()->get('nombreinvitado2'),request()->get('correoinvitado2'),request()->get('ciudadinvitado2'),request()->get('direccióninvitado2'));
           $this->InsertarDB(request()->get('nombreinvitado2'),request()->get('correoinvitado2'),request()->get('ciudadinvitado2'),request()->get('direccióninvitado2'),request()->get('comprador'));
 
+          Return view('confirmacionRegistro');
+
           break;
         }
 
@@ -253,14 +274,18 @@ class AdminController extends Controller
 
     public function EnviarPOSTEventMovil($nombre,$email,$ciudad,$direccion){
         $client = new Client();
-        $res = $client->request('POST', 'https://webhook.site/a5161dae-8340-416c-8e71-34fb528515ca', [
+        $res = $client->request('POST', 'http://www.eventmovil.com/entradas/event-products-register.php', [
           'form_params' => [
               'first_name' => $nombre,
               'last_name' => $nombre,
               'email' => $email,
+              'short_text_01' => $direccion,
+              'short_text_02' => $ciudad,
               'event_id' => '261',
           ]
        ]);
+       $result= $res->getBody();
+    
 
     }
 

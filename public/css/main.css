@@ -2082,3 +2082,56 @@ ul{
 .inputs-container-one input{
     margin: .9em 0 .9em 0;
 }
+
+/* END LOGIN COMPRADOR */
+
+/* FINALIZAR REGISTRO */
+
+.confirmacion_registro-container{
+  display: flex;
+
+  flex-direction: column;
+
+  flex-wrap: nowrap;
+
+  width: 50%;
+
+  overflow: visible;
+
+  margin: auto;
+
+  align-items: center;
+}
+
+.confirmacion_registro-container img{
+  object-position: center;
+
+  object-fit: contain;
+
+  width: 100%;
+
+}
+
+.confirmacion_registro-container h1{
+  font-size: var(--main-font-size-middleTitles);
+  margin-top: 0px;
+}
+
+.confirmacion_registro-container br{
+  margin-top: 20px;
+}
+
+.confirmacion_registro-container p{
+  font-family: var(--font-family-regular);
+
+  font-size: var(--main-font-size-smallParagraphs);
+
+  text-align: center;
+
+  margin: auto;
+  width: 50%;
+}
+
+
+
+/*END FINALIZAR REGISTRO */

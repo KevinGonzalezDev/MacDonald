@@ -445,6 +445,10 @@
         align-items: center;
     }
 
+    .confirmacion_registro-container{
+        width: 100%;
+    }
+
 
 }
 
@@ -474,6 +478,7 @@
 
         --main-height-button:60px;
     }
+
 
 
 
@@ -747,6 +752,8 @@
         padding:0 .5em 0 .5em;
 
     }
+
+
 
 
 

@@ -6,8 +6,8 @@
     <form id="ingresoForm" action="{{url('login')}}" method="post">
         @csrf
 
-          <h2>Bienvenido</h2>
-          <p>Inicie sesión para registrar a sus invitados</p>
+          <h2>¡Tu compra ha sido exitosa!</h2>
+          <p>Inicia sesión con el correo que la realizaste para registrarte a ti y a tus invitados.</p>
 
           <label>*Obligatorio</label>
 
@@ -30,7 +30,7 @@
                   </div>
               </div>
           @endif
-</form>    
+</form>
 </div>
 
 

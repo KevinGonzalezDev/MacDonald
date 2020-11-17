@@ -62,9 +62,9 @@ class WebhookController extends Controller
       }
 
 
-      $client = new Client();
+
       #$res = $client->request('POST', 'http://www.eventmovil.com/entradas/event-products-register.php', [
-  
+
 
 
 
