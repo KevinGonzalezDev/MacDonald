@@ -100,6 +100,8 @@
 
     --main-width-button:280px;
 
+    --secondary-width-button:380px;
+
     --main-height-button:100px;
 
 
@@ -1728,6 +1730,21 @@ ul{
 
 }
 
+.absolute-button1{
+
+    display: flex;
+
+    flex-direction: row;
+
+    flex-wrap: nowrap;
+
+    justify-content: center;
+
+    align-items: center;
+
+
+}
+
 
 
 .api-container{
@@ -1776,6 +1793,44 @@ ul{
 
 }
 
+
+#mascara1{
+
+    pointer-events: none;
+
+    cursor: pointer;
+
+    position: absolute;
+
+    z-index: 2;
+
+    background-color: var(--main-yellow-color);
+
+    color: var(--main-white-color);
+
+    font-family: var(--font-family-regular);
+
+    font-size: var(--main-font-size-middleTitles);
+
+    border-radius: 25px;
+
+    text-decoration: none;
+
+    width: var(--secondary-width-button);
+
+    height: var(--main-height-button);
+
+    display: flex;
+
+    text-align: center;
+
+    justify-content: center;
+
+    align-items: center;
+
+    transition: .6s;
+
+}
 
 
 
@@ -1844,7 +1899,8 @@ ul{
     color: var(--main-yellow-color);
     font-weight: bold;
     text-align: center;
-    margin: 3em 20px 0 20px;
+    margin: 3em auto 0 auto;
+    width: 70%;
 
 }
 
@@ -2135,3 +2191,26 @@ ul{
 
 
 /*END FINALIZAR REGISTRO */
+
+
+/* ESTILOS 17 NOV 2020 */
+
+.title-container{
+   width: 60%;
+   display: block;
+   margin: 4em auto 4em auto;
+}
+
+.title-container h2{
+    font-family: var(--font-family-bold);
+    font-size: var(--main-font-size-titles);
+    color: var(--main-red-color);
+    text-align: center;
+}
+
+.title-container p{
+    font-family: var(--font-family-light);
+    font-size: var(--main-font-size-paragraphs);
+    color: var(--main-black-color);
+    text-align: center;
+}

@@ -22,7 +22,7 @@
       <span id="hamburger-icon"><img src="img/icons/mobile-menu.png" alt="hamburger icon"></span>
       <div class="mobile-menu-options">
           <ul>
-              <li><a href="{{url('ingreso-comprador')}}">Home</a></li>
+              <li><a href="https://casaronald.org.co">Home</a></li>
               <li><a href="#">Galería</a></li>
               <li id="user-button-mobile"><a href="#">User</a><img src="img/icons/down-arrow.png" alt="donw arrow icon"></li>
           </ul>
@@ -37,7 +37,7 @@
               <li><a href="https://casaronald.org.co
   " target="_blank">Conoce más de la fundación</a></li>
               <li><a href="#">Livestream</a></li>
-              <li><a href="{{url('ingreso-comprador')}}">Galería</a></li>
+              <li><a href="#">Galería</a></li>
               <li id="user-button"><a href="#">User</a><img src="img/icons/down-arrow.png" alt="down arrow icon"></li>
           </ul>
       </header>

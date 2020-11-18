@@ -3,11 +3,26 @@
 @section('content')
 <div class="heroimage-mask">
         <img src="img/templates/banner.png" alt="Hero home image" id="hero-image">
-        <p>Este show
-  es un evento de recaudación de fondos a favor de la Fundación Casa Ronald McDonald, en busca
-  de no detenernos y seguir trabajando por las familias que tienen a sus hijos enfermos y deben
-  permanecer unidas.</p>
+    </div>
 
+
+    <div class="title-container">
+        <h2>Te esperamos este 25 de noviembre a las 7:00 p.m.</h2>
+        <div class="absolute-button1" >
+
+            <div id="mascara1" href="">Compra tu ingreso aquí</div>
+
+            <div class="api-container">
+                <div id="afrus-container-form" data-form="Zm9ybS0xMTkzLW9yZ2FuaXphdGlvbi04MA=="></div>
+                <script src="https://my.afrus.app/template/index.js"></script>
+            </div>
+
+
+        </div>
+        <p>Este show
+            es un evento de recaudación de fondos a favor de la Fundación Casa Ronald McDonald, en busca
+            de no detenernos y seguir trabajando por las familias que tienen a sus hijos enfermos y deben
+            permanecer unidas.</p>
     </div>
 
 
