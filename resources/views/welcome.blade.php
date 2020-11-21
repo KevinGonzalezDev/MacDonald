@@ -158,7 +158,7 @@
                    </div>
 
                    <div class="eventos-info-container">
-                       <h2>La conducción del evento estará a cargo de la bellísima Andrea Jaramillo, que nos guiará por una noche llena de sorpresas.</h2>
+                       <h2>La conducción del evento estará a cargo de la bellísima Maritza Aristizábal, que nos guiará por una noche llena de sorpresas.</h2>
                    </div>
                </div>
 
